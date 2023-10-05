@@ -17,10 +17,10 @@ spec:
     registry: ghcr.io
   environments:
   - key: dev
-  - key: staging
+  - key: personal
   - key: production
   ingress:
-    domain: ""
+    domain: apps.home
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
